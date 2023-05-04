@@ -284,6 +284,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 209281907}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &249188522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5907918098168750472, guid: 0966280f197f3d140b48970333308dc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 119558906079481091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &412519118
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +419,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &473288097 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498238538286213921, guid: 0966280f197f3d140b48970333308dc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 119558906079481091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &630794527
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +461,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5436722515803668062, guid: 895f6f3c2d334633b5800312285058d2,
     type: 3}
   m_PrefabInstance: {fileID: 445141534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &670194073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1545789129209739902, guid: 0966280f197f3d140b48970333308dc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 119558906079481091}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1030971947 stripped
 MonoBehaviour:
@@ -723,14 +741,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
         type: 3}
+      propertyPath: head.IKTarget
+      value: 
+      objectReference: {fileID: 249188522}
+    - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
+        type: 3}
       propertyPath: head.vrTarget
       value: 
       objectReference: {fileID: 1563114558}
     - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
         type: 3}
+      propertyPath: leftHand.IKTarget
+      value: 
+      objectReference: {fileID: 473288097}
+    - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
+        type: 3}
       propertyPath: leftHand.vrTarget
       value: 
       objectReference: {fileID: 1130182138}
+    - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
+        type: 3}
+      propertyPath: rightHand.IKTarget
+      value: 
+      objectReference: {fileID: 670194073}
     - target: {fileID: 8630255770357284842, guid: 0966280f197f3d140b48970333308dc2,
         type: 3}
       propertyPath: rightHand.vrTarget

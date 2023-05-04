@@ -1,9 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
+    
     public class TMP_FrameRateCounter : MonoBehaviour
     {
         public float UpdateInterval = 5.0f;
@@ -56,6 +57,8 @@ namespace TMPro.Examples
 
             Set_FrameCounter_Position(AnchorPosition);
             last_AnchorPosition = AnchorPosition;
+
+
         }
 
         void Start()
@@ -96,6 +99,7 @@ namespace TMPro.Examples
                 m_LastInterval = timeNow;
             }
         }
+
 
         void Set_FrameCounter_Position(FpsCounterAnchorPositions anchor_position)
         {

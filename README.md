@@ -4,3 +4,4 @@ Using Prada Transformer by OMA as the environment, this prototype tests a few fe
 References:
 - [ReadyPlayerMe Avatar Rigging](https://youtu.be/RaDSUd6GSjs),
 - [Prada Transformer by OMA](https://www.oma.com/projects/prada-transformer).
+![](https://github.com/shuang-bi/VR-Shopping/blob/main/VR-Shopping.gif)
